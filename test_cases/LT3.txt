@@ -1,0 +1,9 @@
+init 
+	var x; 
+	var y;
+start 
+	x = 7 * 2 / ( 3 + 4 );
+	y = x * 3;
+	print( x );
+	print ( y );
+end

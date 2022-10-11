@@ -1,0 +1,6 @@
+init
+	var test; 
+begin 
+	test = 10;
+	print( test );
+end

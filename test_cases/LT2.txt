@@ -1,0 +1,8 @@
+init 
+	var test_int, test_int2;
+begin 
+	test_int = 5; 
+	test_int2 = test_int + 3;
+	print( test_int2 ); 
+end 
+	
