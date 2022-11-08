@@ -10,6 +10,8 @@ public class Main {
         if( fc.showOpenDialog( null ) == JFileChooser.APPROVE_OPTION ) {
             SourceFile in = new SourceFile( fc.getSelectedFile().getAbsolutePath() );
             Scanner s = new Scanner(in);
+            Parser p = new Parser( s );
+
 
             Token t = s.scan();
             while(t.kind != TokenKind.EOT) {
@@ -17,6 +19,8 @@ public class Main {
 
                 t = s.scan();
             }
+
+            p.parseProgram();
         }
     }
 }

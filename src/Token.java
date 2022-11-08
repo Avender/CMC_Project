@@ -47,7 +47,7 @@ public class Token {
     }
 
 
-    private static final TokenKind[] KEYWORDS = { TokenKind.INIT, TokenKind.BEGIN, TokenKind.END, TokenKind.FI, TokenKind.DEF, TokenKind.IF, TokenKind.PRINT, TokenKind.RETURN, TokenKind.INPUT, TokenKind.VAR, TokenKind.WHILE };
+    private static final TokenKind[] KEYWORDS = { TokenKind.INIT, TokenKind.BEGIN, TokenKind.END, TokenKind.FI, TokenKind.DEF, TokenKind.ELSE, TokenKind.IF, TokenKind.PRINT, TokenKind.RETURN, TokenKind.INPUT, TokenKind.VAR, TokenKind.WHILE };
 
 
     private static final String ASSIGNOPS[] =

@@ -15,6 +15,7 @@ public enum TokenKind {
     VAR("var"),
     INPUT("input"),
     DEF("def"),
+    ELSE("else"),
 
     COMMA(","),
     SEMICOLON(";"),
